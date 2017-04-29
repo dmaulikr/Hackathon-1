@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A01A2BD64B4A0C82BD3F849F02C79FAF88A63F2A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A01A2BD64B4A0C82BD3F849F02C79FAF88A63F2A" : 9223372036854775807,
+    "F0ACCD5C1459D8C45AC8020CD68590417D7CAE87" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B3E2F3E7-1F8D-4A40-977C-8906621AADB4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A01A2BD64B4A0C82BD3F849F02C79FAF88A63F2A" : "GreenleafNetworkBaltimore\/",
+    "F0ACCD5C1459D8C45AC8020CD68590417D7CAE87" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GreenleafNetworkBaltimore",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GreenleafNetworkBaltimore.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/durul\/Hackathon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A01A2BD64B4A0C82BD3F849F02C79FAF88A63F2A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/MrW1zard\/Hackathon.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0ACCD5C1459D8C45AC8020CD68590417D7CAE87"
+    }
+  ]
+}

@@ -24,7 +24,6 @@
 		2E6650A11EB5231B006D9F36 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E66509F1EB5231B006D9F36 /* Interface.storyboard */; };
 		2E6650A31EB5231B006D9F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6650A21EB5231B006D9F36 /* Assets.xcassets */; };
 		2E6650AA1EB5231B006D9F36 /* Leaf Track Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E6650A91EB5231B006D9F36 /* Leaf Track Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2E6650B11EB5231B006D9F36 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6650B01EB5231B006D9F36 /* InterfaceController.swift */; };
 		2E6650B31EB5231B006D9F36 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6650B21EB5231B006D9F36 /* ExtensionDelegate.swift */; };
 		2E6650B51EB5231B006D9F36 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6650B41EB5231B006D9F36 /* NotificationController.swift */; };
 		2E6650B71EB5231B006D9F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6650B61EB5231B006D9F36 /* Assets.xcassets */; };
@@ -34,6 +33,8 @@
 		2E6650C61EB523B2006D9F36 /* LeafModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1685BF1EB3FB1E0095C643 /* LeafModel.swift */; };
 		2E6650C71EB523B4006D9F36 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0184D1EB4F8D10012F422 /* CompanyModel.swift */; };
 		2E6650C81EB523BA006D9F36 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1685C41EB405950095C643 /* Constants.swift */; };
+		2E8E05481EB5375E004ECF1A /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E05461EB5375E004ECF1A /* RowController.swift */; };
+		2E8E05491EB5375E004ECF1A /* TableInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E05471EB5375E004ECF1A /* TableInterfaceController.swift */; };
 		2ED0184A1EB4F8590012F422 /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED018491EB4F8590012F422 /* CompanyViewController.swift */; };
 		2ED0184C1EB4F8B50012F422 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0184B1EB4F8B50012F422 /* CompanyTableViewCell.swift */; };
 		2ED0184E1EB4F8D10012F422 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0184D1EB4F8D10012F422 /* CompanyModel.swift */; };
@@ -123,11 +124,12 @@
 		2E6650A41EB5231B006D9F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E6650A91EB5231B006D9F36 /* Leaf Track Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Leaf Track Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6650AF1EB5231B006D9F36 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		2E6650B01EB5231B006D9F36 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		2E6650B21EB5231B006D9F36 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		2E6650B41EB5231B006D9F36 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		2E6650B61EB5231B006D9F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E6650B81EB5231B006D9F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8E05461EB5375E004ECF1A /* RowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		2E8E05471EB5375E004ECF1A /* TableInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableInterfaceController.swift; sourceTree = "<group>"; };
 		2ED018491EB4F8590012F422 /* CompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyViewController.swift; sourceTree = "<group>"; };
 		2ED0184B1EB4F8B50012F422 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
 		2ED0184D1EB4F8D10012F422 /* CompanyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
@@ -283,7 +285,8 @@
 		2E6650AD1EB5231B006D9F36 /* Leaf Track Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2E6650B01EB5231B006D9F36 /* InterfaceController.swift */,
+				2E8E05461EB5375E004ECF1A /* RowController.swift */,
+				2E8E05471EB5375E004ECF1A /* TableInterfaceController.swift */,
 				2E6650B21EB5231B006D9F36 /* ExtensionDelegate.swift */,
 				2E6650B41EB5231B006D9F36 /* NotificationController.swift */,
 				2E6650B61EB5231B006D9F36 /* Assets.xcassets */,
@@ -549,12 +552,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8E05491EB5375E004ECF1A /* TableInterfaceController.swift in Sources */,
 				2E6650B51EB5231B006D9F36 /* NotificationController.swift in Sources */,
 				2E6650C61EB523B2006D9F36 /* LeafModel.swift in Sources */,
 				2E6650B31EB5231B006D9F36 /* ExtensionDelegate.swift in Sources */,
 				2E6650C71EB523B4006D9F36 /* CompanyModel.swift in Sources */,
 				2E6650C51EB523AE006D9F36 /* CompanyService.swift in Sources */,
-				2E6650B11EB5231B006D9F36 /* InterfaceController.swift in Sources */,
+				2E8E05481EB5375E004ECF1A /* RowController.swift in Sources */,
 				2E6650C41EB523AC006D9F36 /* DataService.swift in Sources */,
 				2E6650C81EB523BA006D9F36 /* Constants.swift in Sources */,
 			);
@@ -908,6 +912,7 @@
 				2E6650BE1EB5231B006D9F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E6650C01EB5231B006D9F36 /* Build configuration list for PBXNativeTarget "Leaf Track" */ = {
 			isa = XCConfigurationList;
@@ -916,6 +921,7 @@
 				2E6650C21EB5231B006D9F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
