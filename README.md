@@ -21,6 +21,11 @@
 - Home presents problen statement and call to action
 - iOS showcases the iOS iPpne, iWatch and appleTV apps
 - Cannibis explores the history of Medical Cannibis
+- News is a RSS feed of medical cannibis news articles from major publishers n the internet
+- Blog is a posting page of multimedia new artciales to include items from YouTube and Vimeo
+- Community is a pop-up link to our slack team site; http://greenleafnetwork.slack.com
+- Twitter is a pop-up link to our twitter account, showcasing our postings.  There i aslo a cross-site posting here of all items posted to the blog page
+- Newsletter is a pop-up link to our Mailchimp newletter subscription site
 
 # Mobile app for iOS
 * Durul as developers
@@ -55,31 +60,13 @@
 * postmaster is 3than
 
 ## Project Name
-Greenleaf Network
-
-## Project theme
-* The project theme is defined by the https://www.baltimorehackathon.com/
-* Software project
-* "Use software to solve a problem, be funny, create a product, or start a business!"
-* "Mobile apps, websites, software, etc. are all options."
-* Project submission is at https://baltimorehackathon5.devpost.com
-
-## Key Events / Milestones
-* Friday - 6:00pm Kick Off at Impact Hub!
-* Saturday - Working on projects: Impact Hub: 9:00am - 12:00am and Open Works 9:00am - 9:00pm
-* Sunday - 9:00am - 1:00pm Continue making at Impact Hub and Open Works
-* Sunday - 1:00pm Project Submissions Due
-* Sunday - 1:00pm - 3:00pm Projects judged at Impact Hub and Open Works
-* Sunday - 3:00pm Winners announced at Impact Hub and Open Works!
-* Saturday - Follow-up event - July 29, 2017 at University of Baltimore (1420 North Charles Street, Baltimore, MD)
+Greenleaf Network for the project and website url
+leaftrack for the iOS app
 
 ## Team Members and Roles
 * Ethan - Project Management, Lite Code, Lite HTML - Slack: https://baltimorehackathon.slack.com/team/3than
 * Quierra - Augmentity Reality / Unity3d - Slack: https://baltimorehackathon.slack.com/team/qwells
 * Durul - Coder - Slack: https://baltimorehackathon.slack.com/team/durul
-
-## Slack Channel for the team
-\#THX1138 https://baltimorehackathon.slack.com/messages/C5545HQ67
 
 ## eMail addresses
 The following email addresses are valid.  
