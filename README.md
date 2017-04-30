@@ -1,4 +1,4 @@
-# Hackathon ReadMe
+# LeafTrack
 
 ## Project Scope
 * LeafTrack is an online community created by Quierra Wells, Ethan, and Durul,and app focused on facilitating connections between marijuana producers, medical practitioners, and patients. Users can check product prices, type and description of the product through the application. LeafTrack is for patients who want to find the best medical marijuana strain for specific ailments, such as menstrual cramps, depression, autism, and addiction.  With LeafTrack patients can easily find the medical professionals and schedule a consultation in a matter of seconds!
