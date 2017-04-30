@@ -8,9 +8,19 @@
 
 ## Platform / Eco-System
 ### WebSite for public information disclosure & blog site
-* Wordpress site
-* trianreallyhard as webmasters
+* Domain name owned
+* Internet webserver hosting site
+* Wordpress Version: 4.7.4 
+* Wordpress plugins: Disable Comments, JetPack, My Ptivate Site, RSS Importer, External Links, Wordfence Security 
+* 3than as webmasters
 * http://greenleafnetwork.org/
+
+## Website Details
+* Public Domain images from google search
+* Menu Tabs; Home, iOS, Cannibis, News, Blog, Community, Twitter and Newletter
+- Home presents problen statement and call to action
+- iOS showcases the iOS iPpne, iWatch and appleTV apps
+- Cannibis explores the history of Medical Cannibis
 
 # Mobile app for iOS
 * Durul as developers
