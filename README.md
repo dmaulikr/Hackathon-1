@@ -32,7 +32,8 @@
 * Xcode 8
 * Deployment Target = iOS 10.3
 * Base SDK = iOS 9.3
-
+* watchOS support 
+* tvOS support
 
 ### Self-subscribe to our MailChimp Newsletter
 * http://eepurl.com/bVuSYz
