@@ -158,6 +158,7 @@
                         <segue destination="lxj-iR-sxg" kind="relationship" relationship="viewControllers" id="qgc-nF-Lhv"/>
                         <segue destination="qsO-ZG-mWn" kind="relationship" relationship="viewControllers" id="wVY-OR-Zf6"/>
                         <segue destination="9Oz-nE-vgL" kind="relationship" relationship="viewControllers" id="Svn-Lx-nsn"/>
+                        <segue destination="osp-Qb-71G" kind="relationship" relationship="viewControllers" id="v4s-zq-t7r"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gK-xb-ThR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -269,7 +270,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uNF-XU-haq" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852" y="111.99400299850076"/>
+            <point key="canvasLocation" x="2791.1999999999998" y="111.99400299850076"/>
+        </scene>
+        <!--Doctors-->
+        <scene sceneID="Glc-BA-ovL">
+            <objects>
+                <viewController id="osp-Qb-71G" customClass="DoctorViewController" customModule="GreenleafNetworkBaltimore" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gnY-q7-qzz"/>
+                        <viewControllerLayoutGuide type="bottom" id="fN3-Q4-O5W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DaK-VP-v6J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="weG-kn-p1z">
+                                <rect key="frame" x="0.0" y="79" width="375" height="539"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="formBtn:" destination="osp-Qb-71G" eventType="touchUpInside" id="bW4-Xf-Flx"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="doctors" translatesAutoresizingMaskIntoConstraints="NO" id="dro-s9-uAc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Doctors" image="dealsIcon" id="Nzh-MQ-SMa"/>
+                    <navigationItem key="navigationItem" id="iMR-Lm-QHX"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <connections>
+                        <outlet property="doctorIMG" destination="dro-s9-uAc" id="G0x-sq-0lk"/>
+                        <outlet property="formBtn" destination="weG-kn-p1z" id="Io3-xn-ef2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRI-VT-gLZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168.80000000000001" y="135.38230884557723"/>
         </scene>
         <!--Company-->
         <scene sceneID="nBt-Ga-57h">
@@ -289,7 +329,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="heo-l7-Xsu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1108" y="113"/>
+            <point key="canvasLocation" x="2047.2" y="112.89355322338831"/>
         </scene>
         <!--FindUs-->
         <scene sceneID="LrE-ho-dgX">
@@ -501,7 +541,9 @@
     <resources>
         <image name="arrow_left" width="9" height="18"/>
         <image name="arrow_right" width="9" height="18"/>
+        <image name="dealsIcon" width="25" height="25"/>
         <image name="default" width="250" height="250"/>
+        <image name="doctors" width="200" height="350"/>
         <image name="homeIcon" width="24" height="23"/>
         <image name="location" width="21" height="30"/>
         <image name="newsIcon" width="24" height="20"/>

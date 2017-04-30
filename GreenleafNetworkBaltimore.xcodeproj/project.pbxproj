@@ -47,6 +47,7 @@
 		2ECD62D51EB62774005738CA /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0184D1EB4F8D10012F422 /* CompanyModel.swift */; };
 		2ECD62D61EB627E8005738CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1685C41EB405950095C643 /* Constants.swift */; };
 		2ECD62D91EB62974005738CA /* TVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD62D81EB62974005738CA /* TVTableViewCell.swift */; };
+		2ECD62DB1EB63046005738CA /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD62DA1EB63046005738CA /* DoctorViewController.swift */; };
 		2ED0184A1EB4F8590012F422 /* CompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED018491EB4F8590012F422 /* CompanyViewController.swift */; };
 		2ED0184C1EB4F8B50012F422 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0184B1EB4F8B50012F422 /* CompanyTableViewCell.swift */; };
 		2ED0184E1EB4F8D10012F422 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED0184D1EB4F8D10012F422 /* CompanyModel.swift */; };
@@ -169,6 +170,7 @@
 		2ECD62C61EB6274F005738CA /* LeafTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafTVUITests.swift; sourceTree = "<group>"; };
 		2ECD62C81EB6274F005738CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECD62D81EB62974005738CA /* TVTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVTableViewCell.swift; sourceTree = "<group>"; };
+		2ECD62DA1EB63046005738CA /* DoctorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorViewController.swift; sourceTree = "<group>"; };
 		2ED018491EB4F8590012F422 /* CompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyViewController.swift; sourceTree = "<group>"; };
 		2ED0184B1EB4F8B50012F422 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
 		2ED0184D1EB4F8D10012F422 /* CompanyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 				2E1685901EB3FADB0095C643 /* ViewController.swift */,
 				2ED018491EB4F8590012F422 /* CompanyViewController.swift */,
 				2E6650991EB50C4B006D9F36 /* FindUsViewController.swift */,
+				2ECD62DA1EB63046005738CA /* DoctorViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -720,6 +723,7 @@
 				2ED018501EB4FE3A0012F422 /* CompanyService.swift in Sources */,
 				2E1685C31EB403DB0095C643 /* DataService.swift in Sources */,
 				2ED0184C1EB4F8B50012F422 /* CompanyTableViewCell.swift in Sources */,
+				2ECD62DB1EB63046005738CA /* DoctorViewController.swift in Sources */,
 				2E1685CA1EB411970095C643 /* ThemeManager.swift in Sources */,
 				2ED0184E1EB4F8D10012F422 /* CompanyModel.swift in Sources */,
 			);

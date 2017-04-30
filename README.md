@@ -4,10 +4,12 @@
 * Build a B2B Medical Cannabis Network
 > Recently Maryland has legalized Medical Cannabis.  Licences have been awarded, crops have been planted and distribution store fronts are building out.  
 
+* LeafTrack is an app focused on facilitating connections between medical marijuana producers, medical practitioners, and patients. Users can check prices, view product description, and request a consultation through application.
+
 ## Platform / Eco-System
 ### WebSite for public information disclosure & blog site
 * Wordpress site
-* domenicthomas & trianreallyhard as webmasters
+* trianreallyhard as webmasters
 * http://greenleafnetwork.org/
 
 # Mobile app for iOS
@@ -18,6 +20,8 @@
 * Company Tab gets a paginated list of producer
 * Find eligible producer
 * Make a Reservation
+* List of the doctors in Baltimore
+* Fill to form.
 
 ### Mobile app API Details
 * Cannabis Reports Cannabis API https://www.cannabisreports.com/api
@@ -29,13 +33,12 @@
 * Deployment Target = iOS 10.3
 * Base SDK = iOS 9.3
 
-### Block Chain B2B network for peer transactions
-* Ethereum blockchain network using the language solidity
-* domenicthomas & 3than as developers
+
 ### Self-subscribe to our MailChimp Newsletter
 * http://eepurl.com/bVuSYz
 * https://mailchimp.com
 * postmaster is 3than
+
 ## Twitter account for marketing and social postings
 * https://twitter.com/greenleaf_net
 * postmaster is 3than
