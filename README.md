@@ -18,7 +18,6 @@
 * http://greenleafnetwork.org/
 
 ## Website Details
-* Website:
 * Explores the history of Medical Cannabis
 * Keeps up with the latest cannabis news 
 * Connects with the community via social media and slack http://greenleafnetwork.slack.com
