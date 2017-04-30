@@ -1,22 +1,18 @@
 //
 //  ViewController.swift
-//  GreenleafNetworkBaltimore
-
+//  LeafTV
 import UIKit
 
-class ViewController: UIViewController {
-
+class TVViewController: UIViewController {
+    
     @IBOutlet weak var tableView: UITableView!
-
+    
     var dataService = DataService.instance
     
     var allLeafTruck = [LeafTruck]()
-    let theme = ThemeManager.currentTheme()
-
-    var refreshControl: UIRefreshControl!
+    
     var customView: UIView!
-    var labelsArray: Array<UILabel> = []
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,12 +21,10 @@ class ViewController: UIViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+
         
-        // SETUP REFRESH CONTROL
-        setupRefreshControl()
-
     }
-
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -39,37 +33,7 @@ class ViewController: UIViewController {
         // END TEST”
         
     }
-    
-    func setupRefreshControl(){
-        
-        self.refreshControl = UIRefreshControl()
-        self.refreshControl.backgroundColor = UIColor.red
-        self.refreshControl.tintColor = UIColor.white
-        self.refreshControl.addTarget(self, action: #selector(ViewController.refreshTableView), for: .valueChanged)
-        
-        self.tableView.addSubview(refreshControl)
-        
-        loadCustomRefreshContents()
-    }
-    
-    func refreshTableView() {
-        OperationQueue.main.addOperation {
-            self.tableView.reloadData()
-            self.refreshControl.endRefreshing()
-        }
-    }
-    
-    func loadCustomRefreshContents() {
-        let refreshContents = Bundle.main.loadNibNamed("RefreshContents", owner: self, options: nil)
-        
-        customView = refreshContents?[0] as! UIView
-        customView.frame = refreshControl.bounds
-        
-        for i in 0 ..< customView.subviews.count {
-            labelsArray.append(customView.viewWithTag(i + 1) as! UILabel)
-        }
-        refreshControl.addSubview(customView)
-    }
+
     
     func showAlert(with title: String?, message: String?) {
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -80,7 +44,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: DataServiceDelegate {
+extension TVViewController: DataServiceDelegate {
     func trucksLoaded() {
         
         OperationQueue.main.addOperation {
@@ -90,7 +54,7 @@ extension ViewController: DataServiceDelegate {
     
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension TVViewController: UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -100,14 +64,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "leaftruckCell", for: indexPath) as? LeafTruckCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "tvtruckCell", for: indexPath) as? TVTableViewCell {
             cell.confifCell(truck: dataService.leafTrucks[indexPath.row])
             return cell
         } else {
             return UITableViewCell()
         }
     }
-    
+        
 }
 
 

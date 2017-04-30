@@ -36,31 +36,5 @@ public class LeafTruck: NSObject {
         
         return leaftrucks
     }
-    
-    static func parseFoodTruckJSONData(data: Data) -> LeafTruck {
-        var leafTruck = LeafTruck()
-        
-        do {
-            let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-            
-            // Parse JSON Data
-            if let truck = jsonResult as? Dictionary<String, AnyObject>{
-                
-                let newLeafTruck = LeafTruck()
-                
-                newLeafTruck.name = truck["name"]! as! String
-                newLeafTruck.leafType = truck["type"]! as! String
-                newLeafTruck.price_gram = truck["price_gram"]! as! String
-                
-
-                leafTruck = newLeafTruck
-            }
-            
-        } catch let err {
-            print(err)
-        }
-        
-        return leafTruck
-    }
 
 }

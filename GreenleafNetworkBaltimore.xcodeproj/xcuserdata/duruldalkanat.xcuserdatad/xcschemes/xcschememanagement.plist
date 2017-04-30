@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>LeafTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -38,6 +43,21 @@
 			<true/>
 		</dict>
 		<key>2E66509C1EB5231B006D9F36</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2ECD62A61EB6274E005738CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2ECD62B61EB6274F005738CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2ECD62C11EB6274F005738CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

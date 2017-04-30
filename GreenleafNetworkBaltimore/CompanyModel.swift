@@ -37,30 +37,4 @@ public class CompanyModel: NSObject {
         return leaftrucks
     }
     
-    static func parseCompanyJSONData(data: Data) -> CompanyModel {
-        var leafTruck = CompanyModel()
-        
-        do {
-            let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
-            
-            // Parse JSON Data
-            if let truck = jsonResult as? Dictionary<String, AnyObject>{
-                
-                let newLeafTruck = CompanyModel()
-                
-                newLeafTruck.name = truck["name"]! as! String
-                newLeafTruck.ucpc = truck["ucpc"]! as! String
-                newLeafTruck.producer = truck["producer"]?["name"]  as! String
-                newLeafTruck.type = truck["type"]! as! String
-
-                leafTruck = newLeafTruck
-            }
-            
-        } catch let err {
-            print(err)
-        }
-        
-        return leafTruck
-    }
-    
 }
