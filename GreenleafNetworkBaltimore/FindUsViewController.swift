@@ -35,7 +35,7 @@ class FindUsViewController: UIViewController {
     }
     
     @IBAction func onMakeReservation(_ sender: AnyObject) {
-        let alert = UIAlertView(title: "Thank You", message: "You have booked table. Thanks for your reservation.", delegate: nil, cancelButtonTitle: "Ok")
+        let alert = UIAlertView(title: "Thank You", message: "You have booked doctor. Thanks for your appointment.", delegate: nil, cancelButtonTitle: "Ok")
         alert.show()
     }
 }
