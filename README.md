@@ -19,6 +19,9 @@
 * Find eligible producer
 * Make a Reservation
 
+### Mobile app API Details
+* Cannabis Reports Cannabis API https://www.cannabisreports.com/api
+
 ### Mobile app Requirements
 * Swift 3.0+
 * iOS 8.0 or later
